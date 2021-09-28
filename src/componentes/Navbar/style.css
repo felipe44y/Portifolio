@@ -1,0 +1,14 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    background-color: #8A2BE2;
+}
+a{
+    font-family: arial;
+    color:white;
+    font-size: 1.1em;
+}
