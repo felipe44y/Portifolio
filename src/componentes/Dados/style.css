@@ -52,7 +52,7 @@
     .about{
         text-align: center;
         width: 77%;
-        height: 30%;
+        height: 15%;
     }
     .contato p{
         margin-bottom: 50px;
@@ -62,4 +62,5 @@
         width: 100%;
         height: 70vh;
     }
+
 }
