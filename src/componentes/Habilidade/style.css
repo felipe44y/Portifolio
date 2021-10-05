@@ -1,6 +1,6 @@
 .borda{
-    display: flex;
     overflow: hidden;
+    display: flex;
     width: 100vw;
     height: 100vh;
     flex-direction: column;
@@ -26,11 +26,11 @@
     -ms-transform: scale(1.5);
     transform: scale(1.5);
 }
-#stars4{
+#stars4 {
     width: 1px;
     height: 1px;
     background: transparent;
-    animation: animStars 50s linear infinite;
+    animation: animStar 50s linear infinite;
     box-shadow: 779px 1331px #fff, 324px 42px #fff, 303px 586px #fff,
     1312px 276px #fff, 451px 625px #fff, 521px 1931px #fff, 1087px 1871px #fff,
     36px 1546px #fff, 132px 934px #fff, 1698px 901px #fff, 1418px 664px #fff,
@@ -400,7 +400,7 @@
     width: 2px;
     height: 2px;
     background: transparent;
-    animation: animStars 100s linear infinite;
+    animation: animStar 100s linear infinite;
     box-shadow: 1448px 320px #fff, 1775px 1663px #fff, 332px 1364px #fff,
     878px 340px #fff, 569px 1832px #fff, 1422px 1684px #fff, 1946px 1907px #fff,
     121px 979px #fff, 1044px 1069px #fff, 463px 381px #fff, 423px 112px #fff,
@@ -518,7 +518,7 @@
     width: 3px;
     height: 3px;
     background: transparent;
-    animation: animStars 150s linear infinte;
+    animation: animStar 150s linear infinte;
     box-shadow: 387px 1878px #fff, 760px 1564px #fff, 1487px 999px #fff,
     948px 1828px #fff, 1977px 1001px #fff, 1284px 1963px #fff, 656px 284px #fff,
     1268px 1635px #fff, 1820px 598px #fff, 642px 1900px #fff, 296px 57px #fff,
@@ -546,8 +546,10 @@
     494px 1957px #fff, 1296px 431px #fff, 175px 1507px #fff, 831px 121px #fff,
     498px 1947px #fff, 617px 880px #fff, 240px 403px #fff;
 }
+
 #stars6:after {
     content: '';
+    position: relative;
     top: 2000px;
     width: 3px;
     height: 3px;
@@ -579,7 +581,7 @@
     494px 1957px #fff, 1296px 431px #fff, 175px 1507px #fff, 831px 121px #fff,
     498px 1947px #fff, 617px 880px #fff, 240px 403px #fff;
 }
-@keyframes animStars {
+@keyframes animStar {
     from {
         transform: translateY(0px);
     }
@@ -602,6 +604,6 @@
         height: 70vh;
     }
     .borda h1{
-        font-size: 4em;
+        font-size: 3.8em;
     }
 }
